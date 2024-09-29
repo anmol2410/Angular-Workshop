@@ -1,0 +1,83 @@
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+  
+      .navbar-brand img {
+        height: 50px;
+      }
+  
+      .search-bar {
+        display: flex;
+        align-items: center;
+  
+        input {
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 3px;
+          width: 300px;
+        }
+  
+        button {
+          background-color: #000;
+          color: #fff;
+          padding: 10px;
+          border: none;
+          cursor: pointer;
+          margin-left: 10px;
+  
+          i {
+            font-size: 16px;
+          }
+        }
+      }
+  
+      .navbar-right {
+        display: flex;
+        align-items: center;
+  
+        .login-register {
+          margin-right: 20px;
+          text-decoration: none;
+          color: #333;
+        }
+  
+        .select-city {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+  
+          i {
+            margin-right: 5px;
+          }
+  
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  
+    .sub-navbar {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+      padding: 15px 0;
+  
+      a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+      }
+    }
+  }
+img{
+  height: 20px;
+  width: 300px;
+}

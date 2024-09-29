@@ -1,0 +1,38 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .btn-link {
+    font-size: 0.9rem;
+    padding-left: 0;
+  }
+  
+  .btn-danger {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
+  
+  .text-center {
+    margin-top: 20px;
+  }
+  
